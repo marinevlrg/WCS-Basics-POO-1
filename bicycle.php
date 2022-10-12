@@ -30,7 +30,7 @@
             return $this->nbWheels;
         }
 
-        private function setNbWheels(int $nbWheels): void
+        public function setNbWheels(int $nbWheels): void
         {
             if ($nbWheels >= 1) {
                 $this->nbWheels = $nbWheels;
@@ -68,7 +68,7 @@
             return $this->nbSeats;
         }
 
-        private function setNbSeats(int $nbSeats): void
+        public function setNbSeats(int $nbSeats): void
         {
             if ($nbSeats >= 1) {
             $this->nbSeats = $nbSeats;
